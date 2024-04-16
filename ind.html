@@ -125,6 +125,18 @@
   console.log(position);
 };
 </script>
+     <script>
+const password = 'utub'; // Set the password here
+
+const userInput = prompt('Please enter the password to view the content:');
+
+if (userInput !== password) {
+  alert('Incorrect password. Access denied.');
+  // Optionally, you can redirect the user to another page or display a different message
+  window.location.href = 'https://example.com/access-denied.html';
+}
+</script>
+     
 
     <footer>
         <p>&copy; 2024 MyWebsite. All Rights Reserved. 🌟</p>
